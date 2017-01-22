@@ -1,0 +1,52 @@
+@charset "utf-8";
+[class^="icon-"]{
+	display:inline-block;
+	width: 18px;
+	height: 18px;
+	background: url(../res/images/icon/icons.png) no-repeat;
+	vertical-align: middle;
+	cursor: pointer;
+}
+.icon-prve{
+	width: 28px;
+	height: 20px;
+	background-position: -1px -1px;
+}
+.icon-next{
+	width: 28px;
+	height: 20px;
+	background-position: -1px -24px;
+}
+.icon-btn-arr{
+	background-position: -1px -48px
+}
+.icon-arr-l{
+	width: 4px;
+	height: 6px;
+	background-position: -1px -70px
+}
+.icon-config{
+	width: 15px;
+	height: 15px;
+	background-position: -1px -80px
+}
+.icon-local{
+	width: 15px;
+	height: 15px;
+	background-position: -1px -100px
+}
+.icon-contact{
+	width: 15px;
+	height: 15px;
+	background-position: -1px -119px
+}
+.icon-date{
+	width: 13px;
+	height: 12px;
+	background-position: -1px -158px
+}
+.icon-arr-btn{
+	width: 15px;
+	height: 12px;
+	background-position: -1px -173px
+}

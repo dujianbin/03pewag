@@ -1,0 +1,9 @@
+@charset "utf-8";
+html, body, form, fieldset, input, select, textarea, p, h1, h2, h3, h4, h5{margin:0;padding:0;}
+body {font:12px "微软雅黑",Arial,Sans-Serif;color:#424a52;}
+
+.clearfix:after {content: " ";display: block;height: 0;clear: both;visibility: hidden;line-height: 0;}
+a {cursor:pointer;text-decoration: none;}
+img{border: none;}
+ul{margin: 0;padding: 0;}
+ul li{list-style: none;}

@@ -1,0 +1,73 @@
+@charset "utf-8";
+/*more*/
+.content {
+	width: 958px;
+	margin-top: -4px;
+}
+.content li {
+	display: block;
+	position: relative;
+	width: 203px;
+	height: 238px;
+	text-decoration: none !important;
+	border: solid #dadad6;
+	border-width: 0 1px 1px 0;
+	background: url(../res/images/bg/bg-more.png) 0 0 no-repeat;
+	float: left;
+}
+.content li:hover{
+	background-position:0 -238px;
+	cursor: pointer;
+}
+.content li:hover img{
+	background-color: #dadad6;
+}
+.content li img {
+	position: absolute;
+	top: 48px;
+	left: 9px;
+	width: 183px;
+	height: 88px;
+	padding-bottom: 4px;
+	background-color: #003d6e;
+	border: solid 1px #dadad6
+}
+.content li img:hover {
+	position: absolute;
+	top: 48px;
+	left: 9px;
+	width: 183px;
+	height: 88px;
+	padding-bottom: 4px;
+	border: solid 1px #dadad6;
+	 background-color: #dadad6;
+}
+.headLine {
+	display: block;
+	position: absolute;
+	top: 10px;
+	left: 9px;
+	width: 185px;
+	height: 34px;
+	overflow: hidden;
+	font: 13px/17px "微软雅黑";
+	color: #003d6e;
+}
+.instruct {
+	position: absolute;
+	top: 148px;
+	left: 9px;
+	width: 183px;
+	height: 45px;
+	overflow: hidden;
+	color: #424a52;
+}
+.more {
+	position: absolute;
+	top: 212px;
+	left: 50px;
+	width: 140px;
+	height: 15px;
+	color: #003d6e
+}
+
